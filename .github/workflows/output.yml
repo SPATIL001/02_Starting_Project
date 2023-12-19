@@ -3,5 +3,5 @@ name: Output Information
   jobs: 
     info:
          runs-on: ubuntu-latest
-         -name: Output Gitbhub Context\
+         -name: Output Github Context
           run : echo "${{ toJSON(github) }}"
